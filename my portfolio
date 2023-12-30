@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>my protofilo</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <style>
+  .container{
+  display: flex;
+  background-color:yellow;
+}
+ 
+/* Style buttons */
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.oe{
+  display: flex;
+  }
+.skills{
+  display: flex;
+  }
+.s2{margin-left:100px;}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+img {
+  max-width: 70%;
+  max-height:90%;
+width:200px;
+margin-left:30px;
+margin-bottom:20px;
+margin-top:20px;
+
+}
+footer{background-color:burlywood;}
+
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+}
+#a{background-color:yellow;}
+#b{background-color:yellow;}
+
+margin-top:auto;}
+  </style>
+  <body>
+    <div class="container">
+      <div class="image">
+        <img src="C:\Users\vamsi\Downloads\WhatsApp Image 2023-12-30 at 11.54.26 AM.jpeg">
+      </div>
+      <div class="text">
+        <h1>Chirumamilla Vamsi Krishna</h1>
+<h2>(Cse UnderGraduate)</h2>
+<button class="btn"><i class="fa fa-download"></i> My Resume</button>
+      </div>
+    </div>
+<div class="oe">
+
+<div class="obj">
+<h1 style="background-color:yellow;width:600px;color:blue;">Career Objective:</h1>
+   <p style="font-size:20px;">Seeking a job opportunity to utilize my 
+skills in IT industry that helps in my 
+professional growth while being 
+resourceful, innovative and aspiring a 
+challenging career in a software 
+development sector.</p>
+</div>
+<div class="edu">
+<h1 style="background-color:yellow;width:600px;color:blue;">Education:</h1>
+<h2 class="btech">Bachelor in Technology (B. Tech) | Computer Science and Engineering 
+Swarnandhra College of Engineering and technology, Narsapuram 
+(2020-2024)
+9.14/10 CGPA </h1>
+ 
+<h2 class="inter"> Intermediate | M.P.C 
+Jupiter Junior College,Guntur,AP 
+(2018-2020) 
+9.53/10 CGPA </h2>
+<h2 class="ssc">
+SSC 
+Geetham English Medium High School, Guntur,AP 
+,(2017-2018) 
+9.8/10 CGPA</h2>
+</div>
+
+</div>
+<h1 style="background-color:yellow;color:blue;">skills:</h1><br>
+<div class="skills">
+
+<div class="s1">
+<h1>C<meter min="0" value="7" max="10"></meter></h1>
+<h1>Python<meter min="0" value="7" max="10"></meter></h1>
+<h1>Sql<meter min="0" value="7" max="10"></meter></h1>
+</div>
+<div class="s2">
+<h1>Html<meter min="0" value="8" max="10"></meter></h1>
+<h1>Css<meter min="0" value="8" max="10"></meter></h1>
+<h1>Java Script<meter min="0" value="7" max="10"></meter></h1>
+</div>
+</div>
+<br>
+<br>
+<div class="cp">
+<h1 style="background-color:yellow;color:blue;">CERTIFICATIONS AND INTERNSHIPS:<h1>
+<ul>
+<li>Programming Essentials in Python (Cisco Netacad Certification)</li>
+<li>Python(Basics) Skill Certification By Hacker Rank</li>
+<li>Sql(Basics) Skill Certification By Hacker Rank</li>
+
+<li>Certified By Tcs Ion in Career Edge-Young Professional Course</li>
+<ul>
+
+</div>
+<br>
+<br>
+<footer>
+<div class="con">
+<h1 style="background-color:yellow;color:blue;">CONTACT DETAILS:</h1><br>
+<h2>Name:Chirumamilla vamsi Krishna</h2>
+<h2>EMAIL:vamsikrishnachirumamilla9963@gmail.com</h2>
+<h2>LinkedIn: 
+https://www.linkedin.com/in/vamsikrishna-chirumamilla-41423323b</h2>
+<h2>Github: 
+https://github.com/vamsi670</h2>
+<h2>Address:<h2>
+<h2>5-13,oppicherla,karampudi 
+Palnadu district 
+Andhra Pradesh 
+522614</h2>
+</div>
+</footer>
+  </body>
+</html>
