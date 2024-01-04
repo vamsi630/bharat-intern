@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>temp convertor</title>
+<style>
+body{background-color:burlywood;}
+.main{margin-left:250px;background-color:yellow;width:60%;height:50%;text-align:center;margin-top:250px;}
+#a{padding-top:30px;}
+#aa{padding-left:60px;}
+#b{padding-left:auto;}
+img{width:15%;height:50%;margin-right:30px;}
+img{float:right;}
+</style>
+</head>
+<body>
+<div class="c">
+<img src="temp.jpg">
+</div>
+<div class="main">
+<h1 id="a">TEMPERATURE CONVERTOR<H1><br>
+<label id="aa" for="cel">Celsius:</label>
+<input style="font-size:20px;" type="text">
+<input  style="background-color:orange;font-size:20px;" type="submit" value="Convert"><br><br>
+
+<div class="b">
+<label id="b" for="far">Farenhit:</label>
+<input style="font-size:20px;" type="text">
+</div>
+</div>
+</body>
+</html>
