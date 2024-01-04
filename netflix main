@@ -1,0 +1,125 @@
+<html>
+<head>
+
+<link rel="icon" type="image/jpg" href="C:\Users\vamsi\OneDrive\Documents\vamsi\project\netflix logo.jpg"> 
+
+<title>
+netflix
+</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body{
+background-image:url("net.jpg");
+}
+.li,a{text-align:center;padding-left:60px;padding-top:30px;margin-top:2px;text-decoration:none;background-color:yellow;height:12%;font-size:25px;}
+img{width:60px;hieght:60px;padding-top:0px;padding-left:-10px;float:left;}
+input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+margin-left:30px;
+margin-top:30px;
+}
+button {
+  float: left;
+  width: 5%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+margin-top:30px;
+margin-right:0px;
+  font-size: 17px;
+  border: 1px solid grey;
+ /* Prevent double borders */
+  cursor: pointer;
+}
+.image-gallery {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      align-items: center;
+   }
+   .image-gallery .image-item {
+         width: 30%;
+         text-align: center;
+
+   }
+   .image-gallery img {
+      width: 100%;
+      height: 320px;
+      transition: transform 0.2s;
+   }
+   .image-gallery .image-item:hover {
+      transform: scale(1.1);
+      border: 3px solid red;
+   }
+   .image-description {
+      margin-top: 10px;color:yellow;font-size:30px;
+   }
+   
+
+input{
+background-color:orange;
+}
+
+input:hover{color:green;background-color:yellow;cursor:pointer;}  
+</style>
+</head>
+<body>
+
+<div class="netflix">
+<nav class="li">
+<a href=""><img src="nlogo.jpg"></a>
+<a  style="margin-top:20px;" href="nhome.html"><input type="button" value="Home"></a>
+<a href="ntvshows.html"><input type="button" value="Tv Shows"></a>
+<a href="nmovies.html"><input type="button" value="Movies"></a>
+<a href="nradded.html"><input type="button" value="Recently Added"></a>
+<a href="nmlist.html"><input type="button" value="My List"></a>
+ 
+</nav>
+
+<hr style="border:2px solid red">
+
+
+<div class="srch">
+<input type="text" placeholder="Search.." name="search">
+<button type="submit"><i class="fa fa-search"></i></button>
+</div>
+<br><br><br>
+<br><br><br>
+  <div class="image-gallery">
+      <div class="image-item">
+         <a href="mh.html"><img src="mh.jpg" alt="money heist"></a>
+         <div class="image-description">Money Heist</div>
+        
+      </div>
+      <div class="image-item">
+         <img src="sg.jpg" alt="squid game">
+         <div class="image-description">Squid Game</div>
+      </div>
+      <div class="image-item">
+         <img src="st.jpg" alt="stranger things">
+         <div class="image-description">Stranger Things</div>
+      </div>
+<br><br>
+<div class="image-item">
+         <img src="rrr.jpg" alt="RRR">
+         <div class="image-description">RRR</div>
+      </div>
+<div class="image-item">
+         <img src="bk.jpg" alt="keasri">
+         <div class="image-description">Bhagavanth kesari</div>
+      </div>
+<div class="image-item">
+         <img src="dde.jpg" alt="dark desire">
+         <div class="image-description">Dark Desire</div>
+      </div>
+
+   </div>
+</div>
+</body>
+</html>
